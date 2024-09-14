@@ -1,0 +1,88 @@
+init();{
+  "event_id": "91685cb259085c7fdf9cd1d0e7c77827401f2ba570089484ddae46eed0c8c5a1",
+  "timestamp": 1726265088,
+  "actions": [
+    {
+      "type": "JettonTransfer",
+      "status": "failed",
+      "JettonTransfer": {
+        "sender": {
+          "address": "0:1f5806c73d03bbc96eb7eebf16067f1f2e8e270cfa16d57001aa9eaf7456f008",
+          "is_scam": false,
+          "is_wallet": true
+        },
+        "recipient": {
+          "address": "0:f99b14600ae44d2f12b178e8c6eabd78892ae82c5e45b6898f9deb7eb203f9c4",
+          "name": "Binance",
+          "is_scam": false,
+          "icon": "https://cache.tonapi.io/imgproxy/5kAZuKlVTXVv-u7QCnwKw7XNqnXpEddTK94b4hEfIXw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9uYy1sMS1zdXBwb3J0LXB1YmxpYy5zMy5tZS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9oZWxwc2NvdXQubmV0L2JpbmFuY2Uuc3Zn.webp",
+          "is_wallet": true
+        },
+        "senders_wallet": "0:b7f5cd75f68a8f91a07e7e203cfc429f7a33f6e3f232282344c8a154b2f5ec7c",
+        "recipients_wallet": "0:0000000000000000000000000000000000000000000000000000000000000000",
+        "amount": "100000000",
+        "comment": "104809196",
+        "jetton": {
+          "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+          "name": "Tether USD",
+          "symbol": "USD₮",
+          "decimals": 6,
+          "image": "https://cache.tonapi.io/imgproxy/T3PB4s7oprNVaJkwqbGg54nexKE0zzKhcrPv8jcWYzU/rs:fill:200:200:1/g:no/aHR0cHM6Ly90ZXRoZXIudG8vaW1hZ2VzL2xvZ29DaXJjbGUucG5n.webp",
+          "verification": "whitelist"
+        }
+      },
+      "simple_preview": {
+        "name": "Jetton Transfer",
+        "description": "Transferring 100 Tether USD",
+        "value": "100 Tether USD",
+        "value_image": "https://cache.tonapi.io/imgproxy/T3PB4s7oprNVaJkwqbGg54nexKE0zzKhcrPv8jcWYzU/rs:fill:200:200:1/g:no/aHR0cHM6Ly90ZXRoZXIudG8vaW1hZ2VzL2xvZ29DaXJjbGUucG5n.webp",
+        "accounts": [
+          {
+            "address": "0:f99b14600ae44d2f12b178e8c6eabd78892ae82c5e45b6898f9deb7eb203f9c4",
+            "name": "Binance",
+            "is_scam": false,
+            "icon": "https://cache.tonapi.io/imgproxy/5kAZuKlVTXVv-u7QCnwKw7XNqnXpEddTK94b4hEfIXw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9uYy1sMS1zdXBwb3J0LXB1YmxpYy5zMy5tZS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9oZWxwc2NvdXQubmV0L2JpbmFuY2Uuc3Zn.webp",
+            "is_wallet": true
+          },
+          {
+            "address": "0:1f5806c73d03bbc96eb7eebf16067f1f2e8e270cfa16d57001aa9eaf7456f008",
+            "is_scam": false,
+            "is_wallet": true
+          },
+          {
+            "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+            "name": "USD₮ master",
+            "is_scam": false,
+            "is_wallet": false
+          }
+        ]
+      },
+      "base_transactions": [
+        "c4eebcbb6ea31a7fc43b4b7b74957b4b47c9afe85c6562d727989dc8efcde906"
+      ]
+    }
+  ],
+  "value_flow": [
+    {
+      "account": {
+        "address": "0:b7f5cd75f68a8f91a07e7e203cfc429f7a33f6e3f232282344c8a154b2f5ec7c",
+        "is_scam": false,
+        "is_wallet": false
+      },
+      "ton": -1,
+      "fees": 1637601
+    },
+    {
+      "account": {
+        "address": "0:1f5806c73d03bbc96eb7eebf16067f1f2e8e270cfa16d57001aa9eaf7456f008",
+        "is_scam": false,
+        "is_wallet": true
+      },
+      "ton": -55949607,
+      "fees": 5949607
+    }
+  ],
+  "is_scam": false,
+  "lt": 49144864000001,
+  "in_progress": true
+}
